@@ -21,3 +21,10 @@ Signalp5 (optional) is used to identify signal peptides in order to identify eve
 * PFAM
 * orthoDB (from the desired taxa)
 ## how to use annot.aM
+We use snakemake to manage all the scripts and software in the pipeline.  
+In order to properly configure each run it is required to edit and save a config.yml.
+## to be implemented
++ automatic updater of databases
++ orthoDB v10
++ installer of dependencies
++ automatic generation of the config file.
